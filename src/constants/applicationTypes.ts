@@ -1,0 +1,6 @@
+export const NOTIFICATION_TYPE = {
+    ERROR: 'ERROR',
+    WARNING: 'WARNING',
+    NORMAL: 'NORMAL'
+};
+export const TOKEN_CHOCOLATE_CHIP_COOKIE = 'TOKEN';
