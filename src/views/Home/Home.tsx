@@ -13,7 +13,8 @@ import {
     BackgroundImage,
     Flex
 } from '@mantine/core';
-import { SplashComponent, Text } from '../../components';
+import { SplashComponent } from '@/components/Splash';
+import { Text } from '@mantine/core';
 import { IconChevronRight } from '@tabler/icons-react';
 
 const Home = () => {
@@ -116,7 +117,7 @@ const Home = () => {
                     }
                 />
                 <Center>
-                    <Text noMargin fz={22} fw={500}>
+                    <Text fz={22} fw={500}>
                         Explore the desk to discover our services!
                     </Text>
                 </Center>
@@ -125,7 +126,7 @@ const Home = () => {
                 </Center>
                 <Center mt={110}>
                     <Group spacing={10} className="clickable">
-                        <Text fz={18} fw={800} noMargin>
+                        <Text fz={18} fw={800}>
                             EXPLORE ALL SERVICES
                         </Text>
                         <IconChevronRight color={theme.other.colors.yellow} />
@@ -149,7 +150,6 @@ const Home = () => {
                                     <Text
                                         fz={18}
                                         fw={800}
-                                        noMargin
                                         color={theme.other.colors.yellow}
                                     >
                                         EXPLORE SERVICES
