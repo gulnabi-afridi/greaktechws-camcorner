@@ -7,7 +7,7 @@ import {
 } from '@mantine/core';
 import { HeaderComponent } from '../Header';
 import { Footer } from '../Footer';
-import { useGlobalState } from '../../store';
+import { useGlobalState } from '@/store';
 import { IconAlertCircle } from '@tabler/icons-react';
 import { NOTIFICATION_TYPE } from '../../constants/applicationTypes';
 
