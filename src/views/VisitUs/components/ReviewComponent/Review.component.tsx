@@ -13,7 +13,6 @@ import {
     Image
 } from '@mantine/core';
 import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
-import { SplashComponent } from '@/components/Splash';
 import { Text } from '@mantine/core';
 import { IconQuote } from '@tabler/icons-react';
 

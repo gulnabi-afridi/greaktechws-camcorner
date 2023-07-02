@@ -12,7 +12,9 @@ import {
     Textarea
 } from '@mantine/core';
 import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
-import { SplashComponent, Text } from '../../components';
+import { SplashComponent } from '@/components/Splash';
+import { Text } from '@mantine/core';
+
 import {
     IconMail,
     IconMessages,
@@ -126,7 +128,7 @@ const VisitUs = () => {
                         </Group>
                         <Group>
                             <IconMapPin />
-                            <Text fz={18} noMargin>
+                            <Text fz={18}>
                                 2273 S Church St, Burlington, NC 27215
                             </Text>
                         </Group>
@@ -138,7 +140,7 @@ const VisitUs = () => {
                                 padding: 50
                             }}
                         >
-                            <Text fz={27} fw={600} noMargin pb={20}>
+                            <Text fz={27} fw={600} pb={20}>
                                 Get In Touch
                             </Text>
                             <TextInput
@@ -220,7 +222,7 @@ const VisitUs = () => {
                             dolore magna aliqua. Ut enim ad minim veniam.
                         </Text>
                         <Group spacing={10} className="clickable">
-                            <Text fz={18} fw={800} noMargin color="black">
+                            <Text fz={18} fw={800} color="black">
                                 LEAVE A REVIEW
                             </Text>
                             <IconChevronRight
